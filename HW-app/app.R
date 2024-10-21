@@ -6,9 +6,8 @@ source("helpers.R")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
-  
+  titlePanel("Correlation Exploration"),
   sidebarLayout(
-    titlePanel("Correlation Exploration"),
     sidebarPanel(
       h2("Select Variables to Find Correlation:"),
       
